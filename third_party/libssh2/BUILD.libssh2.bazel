@@ -30,5 +30,8 @@ cmake(
         "//conditions:default": ["libssh2.a"],
     }),
     visibility = ["//visibility:public"],
-    deps = ["@cargo_raze__openssl//:openssl"],
+    deps = [
+        "@cargo_raze__openssl//:openssl",
+        "@cargo_raze__zlib//:zlib",
+    ],
 )
