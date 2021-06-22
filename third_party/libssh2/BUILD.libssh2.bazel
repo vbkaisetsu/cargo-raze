@@ -11,6 +11,7 @@ _CACHE_ENTRIES = {
     "BUILD_TESTING": "off",
     "CMAKE_FIND_DEBUG_MODE": "on",
     "CMAKE_PREFIX_PATH": "$EXT_BUILD_DEPS/openssl;$EXT_BUILD_DEPS/zlib",
+    "ZLIB_INCLUDE_DIR": "$EXT_BUILD_DEPS/zlib/include",
 }
 
 _LINUX_CACHE_ENTRIES = dict(_CACHE_ENTRIES.items() + {
